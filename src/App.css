@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+margin-top:20px;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(235, 189, 130);
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 70px;
+}
+body{
+  background:  rgba(19, 22, 14, 0.925);
+}
+a{
+  color: rgb(208, 228, 28);
+}
+a:hover{
+  background: rgb(0, 255, 255);
+  border-radius: 50px;
+}
+.repo{
+  margin:0 0px;
+  
+}
+.warning{
+  font-weight: bold;
+  color: rgb(192, 6, 6);
+}
