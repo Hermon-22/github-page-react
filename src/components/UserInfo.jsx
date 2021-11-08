@@ -14,6 +14,7 @@ function UserInfo({ resultInfo, userOnclick, userOntype, warning, fullName, user
                 <h1>{fullName} {resultInfo.name}</h1>
                 <h4>{userName} {resultInfo.login}</h4>
                 <h4>{location} {resultInfo.location}</h4>                
+                <h4> {resultInfo.bio}</h4>                
             </div>
         </div>
     )
